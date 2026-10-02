@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments (each tool makes its own)
+.venv/
+venv/
+env/
+ENV/
+
+# Generated output (scan reports, crack results, challenge packages)
+ghostscan/output/
+logwatch/output/
+hashcrack/output/
+stegotool/output/
+stegotool/challenges/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / API keys: ghostscan/config.py ships with EMPTY key slots.
+# Put real keys only in a local copy or an untracked file, never in a commit.
+.env
+*.env
+
+# Tooling caches
+.ipynb_checkpoints/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage

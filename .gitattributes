@@ -1,0 +1,6 @@
+# Keep line endings consistent across Windows / macOS / Linux checkouts.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.log text eol=lf
+*.png binary
